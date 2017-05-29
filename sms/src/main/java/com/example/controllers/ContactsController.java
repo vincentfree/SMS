@@ -27,8 +27,8 @@ public class ContactsController {
 	/**
 	 * pre defining twilio account details
 	 */
-    public static final String ACCOUNT_SID = "AC793e8ed7fb1329940ae82217b0dc5005";
-    public static final String AUTH_TOKEN = "1db4518dbbd1d771c5338d87468f1303";
+    public static final String ACCOUNT_SID = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"; //i have removed credentials
+    public static final String AUTH_TOKEN = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"; //just in case someone misuses it
     public static final String TWILIO_NUMBER = "+17146772124";
     public static String otpString = "";
 	
