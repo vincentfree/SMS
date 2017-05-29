@@ -1,0 +1,101 @@
+2017-05-29T10:53:39.213283+00:00 app[web.1]: 	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306) [spring-beans-4.3.8.RELEASE.jar!/:4.3.8.RELEASE]
+2017-05-29T10:53:39.213284+00:00 app[web.1]: 	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) [spring-beans-4.3.8.RELEASE.jar!/:4.3.8.RELEASE]
+2017-05-29T10:53:39.213288+00:00 app[web.1]: 	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302) [spring-beans-4.3.8.RELEASE.jar!/:4.3.8.RELEASE]
+2017-05-29T10:53:39.213289+00:00 app[web.1]: 	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) [spring-beans-4.3.8.RELEASE.jar!/:4.3.8.RELEASE]
+2017-05-29T10:53:39.213290+00:00 app[web.1]: 	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1081) [spring-context-4.3.8.RELEASE.jar!/:4.3.8.RELEASE]
+2017-05-29T10:53:39.213291+00:00 app[web.1]: 	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:856) [spring-context-4.3.8.RELEASE.jar!/:4.3.8.RELEASE]
+2017-05-29T10:53:39.213291+00:00 app[web.1]: 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542) [spring-context-4.3.8.RELEASE.jar!/:4.3.8.RELEASE]
+2017-05-29T10:53:39.213292+00:00 app[web.1]: 	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) [spring-boot-1.5.3.RELEASE.jar!/:1.5.3.RELEASE]
+2017-05-29T10:53:39.213293+00:00 app[web.1]: 	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737) [spring-boot-1.5.3.RELEASE.jar!/:1.5.3.RELEASE]
+2017-05-29T10:53:39.213294+00:00 app[web.1]: 	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370) [spring-boot-1.5.3.RELEASE.jar!/:1.5.3.RELEASE]
+2017-05-29T10:53:39.213294+00:00 app[web.1]: 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314) [spring-boot-1.5.3.RELEASE.jar!/:1.5.3.RELEASE]
+2017-05-29T10:53:39.213295+00:00 app[web.1]: 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162) [spring-boot-1.5.3.RELEASE.jar!/:1.5.3.RELEASE]
+2017-05-29T10:53:39.213296+00:00 app[web.1]: 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151) [spring-boot-1.5.3.RELEASE.jar!/:1.5.3.RELEASE]
+2017-05-29T10:53:39.213297+00:00 app[web.1]: 	at com.example.SmsApplication.main(SmsApplication.java:12) [classes!/:0.0.1-SNAPSHOT]
+2017-05-29T10:53:39.213297+00:00 app[web.1]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_121-heroku16]
+2017-05-29T10:53:39.213298+00:00 app[web.1]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_121-heroku16]
+2017-05-29T10:53:39.213299+00:00 app[web.1]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_121-heroku16]
+2017-05-29T10:53:39.213300+00:00 app[web.1]: 	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_121-heroku16]
+2017-05-29T10:53:39.213300+00:00 app[web.1]: 	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:48) [sms-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+2017-05-29T10:53:39.213301+00:00 app[web.1]: 	at org.springframework.boot.loader.Launcher.launch(Launcher.java:87) [sms-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+2017-05-29T10:53:39.213302+00:00 app[web.1]: 	at org.springframework.boot.loader.Launcher.launch(Launcher.java:50) [sms-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+2017-05-29T10:53:39.213303+00:00 app[web.1]: 	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:51) [sms-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+2017-05-29T10:53:39.213303+00:00 app[web.1]: Caused by: java.net.ConnectException: Connection refused (Connection refused)
+2017-05-29T10:53:39.213304+00:00 app[web.1]: 	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[na:1.8.0_121-heroku16]
+2017-05-29T10:53:39.213305+00:00 app[web.1]: 	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_121-heroku16]
+2017-05-29T10:53:39.213305+00:00 app[web.1]: 	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_121-heroku16]
+2017-05-29T10:53:39.213306+00:00 app[web.1]: 	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_121-heroku16]
+2017-05-29T10:53:39.213307+00:00 app[web.1]: 	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_121-heroku16]
+2017-05-29T10:53:39.213308+00:00 app[web.1]: 	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_121-heroku16]
+2017-05-29T10:53:39.213317+00:00 app[web.1]: 	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211) ~[mysql-connector-java-5.1.41.jar!/:5.1.41]
+2017-05-29T10:53:39.213318+00:00 app[web.1]: 	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:300) ~[mysql-connector-java-5.1.41.jar!/:5.1.41]
+2017-05-29T10:53:39.213318+00:00 app[web.1]: 	... 67 common frames omitted
+2017-05-29T10:53:39.213319+00:00 app[web.1]: 
+2017-05-29T10:53:39.214753+00:00 app[web.1]: 2017-05-29 10:53:39.214  WARN 4 --- [           main] o.h.e.j.e.i.JdbcEnvironmentInitiator     : HHH000342: Could not obtain connection to query metadata : Communications link failure
+2017-05-29T10:53:39.214755+00:00 app[web.1]: 
+2017-05-29T10:53:39.214755+00:00 app[web.1]: The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2017-05-29T10:53:39.217173+00:00 app[web.1]: 2017-05-29 10:53:39.217  WARN 4 --- [           main] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+2017-05-29T10:53:39.219387+00:00 app[web.1]: 2017-05-29 10:53:39.219  INFO 4 --- [           main] o.apache.catalina.core.StandardService   : Stopping service Tomcat
+2017-05-29T10:53:39.234989+00:00 app[web.1]: 2017-05-29 10:53:39.234  INFO 4 --- [           main] utoConfigurationReportLoggingInitializer : 
+2017-05-29T10:53:39.234991+00:00 app[web.1]: 
+2017-05-29T10:53:39.234992+00:00 app[web.1]: Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-05-29T10:53:39.238713+00:00 app[web.1]: 2017-05-29 10:53:39.238 ERROR 4 --- [           main] o.s.boot.SpringApplication               : Application startup failed
+2017-05-29T10:53:39.238715+00:00 app[web.1]: 
+2017-05-29T10:53:39.238728+00:00 app[web.1]: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+2017-05-29T10:53:39.238730+00:00 app[web.1]: 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1628) ~[spring-beans-4.3.8.RELEASE.jar!/:4.3.8.RELEASE]
+2017-05-29T10:53:39.238731+00:00 app[web.1]: 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-4.3.8.RELEASE.jar!/:4.3.8.RELEASE]
+2017-05-29T10:53:39.238732+00:00 app[web.1]: 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483) ~[spring-beans-4.3.8.RELEASE.jar!/:4.3.8.RELEASE]
+2017-05-29T10:53:39.238732+00:00 app[web.1]: 	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306) ~[spring-beans-4.3.8.RELEASE.jar!/:4.3.8.RELEASE]
+2017-05-29T10:53:39.238733+00:00 app[web.1]: 	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.3.8.RELEASE.jar!/:4.3.8.RELEASE]
+2017-05-29T10:53:39.238734+00:00 app[web.1]: 	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302) ~[spring-beans-4.3.8.RELEASE.jar!/:4.3.8.RELEASE]
+2017-05-29T10:53:39.238735+00:00 app[web.1]: 	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) ~[spring-beans-4.3.8.RELEASE.jar!/:4.3.8.RELEASE]
+2017-05-29T10:53:39.238736+00:00 app[web.1]: 	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1081) ~[spring-context-4.3.8.RELEASE.jar!/:4.3.8.RELEASE]
+2017-05-29T10:53:39.238737+00:00 app[web.1]: 	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:856) ~[spring-context-4.3.8.RELEASE.jar!/:4.3.8.RELEASE]
+2017-05-29T10:53:39.238737+00:00 app[web.1]: 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542) ~[spring-context-4.3.8.RELEASE.jar!/:4.3.8.RELEASE]
+2017-05-29T10:53:39.238738+00:00 app[web.1]: 	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) ~[spring-boot-1.5.3.RELEASE.jar!/:1.5.3.RELEASE]
+2017-05-29T10:53:39.238739+00:00 app[web.1]: 	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737) [spring-boot-1.5.3.RELEASE.jar!/:1.5.3.RELEASE]
+2017-05-29T10:53:39.238740+00:00 app[web.1]: 	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370) [spring-boot-1.5.3.RELEASE.jar!/:1.5.3.RELEASE]
+2017-05-29T10:53:39.238740+00:00 app[web.1]: 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314) [spring-boot-1.5.3.RELEASE.jar!/:1.5.3.RELEASE]
+2017-05-29T10:53:39.238741+00:00 app[web.1]: 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162) [spring-boot-1.5.3.RELEASE.jar!/:1.5.3.RELEASE]
+2017-05-29T10:53:39.238741+00:00 app[web.1]: 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151) [spring-boot-1.5.3.RELEASE.jar!/:1.5.3.RELEASE]
+2017-05-29T10:53:39.238743+00:00 app[web.1]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_121-heroku16]
+2017-05-29T10:53:39.238742+00:00 app[web.1]: 	at com.example.SmsApplication.main(SmsApplication.java:12) [classes!/:0.0.1-SNAPSHOT]
+2017-05-29T10:53:39.238744+00:00 app[web.1]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_121-heroku16]
+2017-05-29T10:53:39.238744+00:00 app[web.1]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_121-heroku16]
+2017-05-29T10:53:39.238745+00:00 app[web.1]: 	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_121-heroku16]
+2017-05-29T10:53:39.238746+00:00 app[web.1]: 	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:48) [sms-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+2017-05-29T10:53:39.238746+00:00 app[web.1]: 	at org.springframework.boot.loader.Launcher.launch(Launcher.java:87) [sms-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+2017-05-29T10:53:39.238747+00:00 app[web.1]: 	at org.springframework.boot.loader.Launcher.launch(Launcher.java:50) [sms-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+2017-05-29T10:53:39.238748+00:00 app[web.1]: 	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:51) [sms-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+2017-05-29T10:53:39.238752+00:00 app[web.1]: Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+2017-05-29T10:53:39.238753+00:00 app[web.1]: 	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:264) ~[hibernate-core-5.0.12.Final.jar!/:5.0.12.Final]
+2017-05-29T10:53:39.238753+00:00 app[web.1]: 	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:228) ~[hibernate-core-5.0.12.Final.jar!/:5.0.12.Final]
+2017-05-29T10:53:39.238754+00:00 app[web.1]: 	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:207) ~[hibernate-core-5.0.12.Final.jar!/:5.0.12.Final]
+2017-05-29T10:53:39.238755+00:00 app[web.1]: 	at org.hibernate.engine.jdbc.internal.JdbcServicesImpl.configure(JdbcServicesImpl.java:51) ~[hibernate-core-5.0.12.Final.jar!/:5.0.12.Final]
+2017-05-29T10:53:39.238756+00:00 app[web.1]: 	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:94) ~[hibernate-core-5.0.12.Final.jar!/:5.0.12.Final]
+2017-05-29T10:53:39.238756+00:00 app[web.1]: 	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237) ~[hibernate-core-5.0.12.Final.jar!/:5.0.12.Final]
+2017-05-29T10:53:39.238757+00:00 app[web.1]: 	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:207) ~[hibernate-core-5.0.12.Final.jar!/:5.0.12.Final]
+2017-05-29T10:53:39.238757+00:00 app[web.1]: 	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.handleTypes(MetadataBuildingProcess.java:352) ~[hibernate-core-5.0.12.Final.jar!/:5.0.12.Final]
+2017-05-29T10:53:39.238758+00:00 app[web.1]: 	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:111) ~[hibernate-core-5.0.12.Final.jar!/:5.0.12.Final]
+2017-05-29T10:53:39.238759+00:00 app[web.1]: 	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:847) ~[hibernate-entitymanager-5.0.12.Final.jar!/:5.0.12.Final]
+2017-05-29T10:53:39.238760+00:00 app[web.1]: 	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:874) ~[hibernate-entitymanager-5.0.12.Final.jar!/:5.0.12.Final]
+2017-05-29T10:53:39.238761+00:00 app[web.1]: 	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:60) ~[spring-orm-4.3.8.RELEASE.jar!/:4.3.8.RELEASE]
+2017-05-29T10:53:39.238761+00:00 app[web.1]: 	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:353) ~[spring-orm-4.3.8.RELEASE.jar!/:4.3.8.RELEASE]
+2017-05-29T10:53:39.238762+00:00 app[web.1]: 	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:370) ~[spring-orm-4.3.8.RELEASE.jar!/:4.3.8.RELEASE]
+2017-05-29T10:53:39.238763+00:00 app[web.1]: 	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:359) ~[spring-orm-4.3.8.RELEASE.jar!/:4.3.8.RELEASE]
+2017-05-29T10:53:39.238763+00:00 app[web.1]: 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1687) ~[spring-beans-4.3.8.RELEASE.jar!/:4.3.8.RELEASE]
+2017-05-29T10:53:39.238764+00:00 app[web.1]: 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1624) ~[spring-beans-4.3.8.RELEASE.jar!/:4.3.8.RELEASE]
+2017-05-29T10:53:39.238765+00:00 app[web.1]: 	... 24 common frames omitted
+2017-05-29T10:53:39.238765+00:00 app[web.1]: Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
+2017-05-29T10:53:39.238766+00:00 app[web.1]: 	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.determineDialect(DialectFactoryImpl.java:100) ~[hibernate-core-5.0.12.Final.jar!/:5.0.12.Final]
+2017-05-29T10:53:39.238767+00:00 app[web.1]: 	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.buildDialect(DialectFactoryImpl.java:54) ~[hibernate-core-5.0.12.Final.jar!/:5.0.12.Final]
+2017-05-29T10:53:39.238767+00:00 app[web.1]: 	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:137) ~[hibernate-core-5.0.12.Final.jar!/:5.0.12.Final]
+2017-05-29T10:53:39.238768+00:00 app[web.1]: 	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35) ~[hibernate-core-5.0.12.Final.jar!/:5.0.12.Final]
+2017-05-29T10:53:39.238771+00:00 app[web.1]: 	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:88) ~[hibernate-core-5.0.12.Final.jar!/:5.0.12.Final]
+2017-05-29T10:53:39.238772+00:00 app[web.1]: 	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:254) ~[hibernate-core-5.0.12.Final.jar!/:5.0.12.Final]
+2017-05-29T10:53:39.238773+00:00 app[web.1]: 	... 40 common frames omitted
+2017-05-29T10:53:39.238773+00:00 app[web.1]: 
+2017-05-29T10:53:39.318023+00:00 heroku[web.1]: State changed from starting to crashed
+2017-05-29T10:53:39.305099+00:00 heroku[web.1]: Process exited with status 1
+2017-05-29T10:53:40.273752+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=cryptic-chamber-16682.herokuapp.com request_id=d34ed4ce-f99f-4ff6-8786-1760464f21b8 fwd="183.82.118.173" dyno= connect= service= status=503 bytes= protocol=https
+2017-05-29T10:53:41.182038+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=cryptic-chamber-16682.herokuapp.com request_id=bdd5f7be-f53d-4337-9e02-ca94aa9b89aa fwd="183.82.118.173" dyno= connect= service= status=503 bytes= protocol=https

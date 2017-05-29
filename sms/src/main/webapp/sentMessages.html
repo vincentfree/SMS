@@ -1,0 +1,25 @@
+<div class="contactsPage">
+
+	<h2 class="contactsHeading">Sent Messages</h2>
+
+	<div class="instructionBody">
+
+		<div ng-repeat="asm in allSentMessages track by $index">
+
+			<div style="font-size: 17px; margin-top: 8px;">
+
+				<div style="display: inline-block; min-width: 200px; float: left;">
+					<span>{{allSentMessages[length-$index-1].receiver}}</span>
+				</div>
+
+				<div style="display: inline-block; max-width: 600px;">
+					<span>{{allSentMessages[length-$index-1].message}}&nbsp;&nbsp;</span>
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+</div>

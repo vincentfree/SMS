@@ -1,0 +1,19 @@
+/*Heading of Contacts.html*/
+.contactsHeading {
+	margin-top: 50px;
+}
+
+/*sort of container class*/
+.contactsBody {
+	min-width: 400px;
+	margin-left: 15px;
+	overflow-y: auto;
+	max-height: 450px;
+}
+
+/*list of all the dummy-contacts retrieved from database*/
+.contactNames {
+	font-size: 17px;
+	margin-top: 8px;
+	cursor: pointer;
+}

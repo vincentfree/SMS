@@ -1,0 +1,68 @@
+/*styling for side navigation bar of the application*/
+.sideBar {
+	color: #fff;
+	background: #000;
+	opacity: 0.6;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	min-width: 250px;
+	max-width: 250px;
+	display: inline-block;
+}
+
+/*leaving sidebar, whatever rest is remaining is mainBody*/
+.mainBody {
+	color: #000;
+	margin-left: 270px;
+	background: transparent;
+	display: inline-block;
+}
+
+.instructions {
+	margin-top: 50px;
+}
+
+.instructionHeading {
+	
+}
+
+/*all the instructions comes under this*/
+.instructionBody {
+	margin-top: 17px;
+	font-size: 17px;
+	overflow-y: auto;
+	max-height: 450px;
+}
+
+/*further inside navigation sidebar, leaving some margin to make it look decent*/
+.navbar {
+	margin: 25px 15px 25px 15px;
+}
+
+/*Kisan Network - title of application*/
+.heading {
+	cursor: none;
+	color: #008080;
+}
+
+/*below three are styling of navigation links in sidebar*/
+.home {
+	cursor: pointer;
+	margin-top: 10px;
+	font-size: 17px;
+	margin-top: 15px;
+}
+
+.contacts {
+	cursor: pointer;
+	margin-top: 10px;
+	font-size: 17px;
+}
+
+.sentMessages {
+	cursor: pointer;
+	margin-top: 10px;
+	font-size: 17px;
+}

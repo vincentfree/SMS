@@ -1,0 +1,106 @@
+<div ng-controller="homeCtrl">
+
+	<!-- sidebar to navigate -->
+	<div class="sideBar">
+
+		<div class="navbar">
+
+			<div>
+				<h1 class="heading">Kisan Network</h1>
+			</div>
+
+			<!-- navigation to 'Home', 'Contacts', 'Sent Messages' -->
+			<div class="home" ui-sref="home">
+				Home <i class="material-icons"
+					style="float: right; max-height: 90%; max-width: 90%;">home</i>
+			</div>
+
+			<div class="contacts" ui-sref="home.contacts">
+				Contacts <i class="material-icons"
+					style="float: right; max-height: 90%; max-width: 90%;">contact_phone</i>
+			</div>
+
+			<div class="sentMessages" ui-sref="home.sentMessages">
+				Sent Messages <i class="material-icons"
+					style="float: right; max-height: 90%; max-width: 90%;">message</i>
+			</div>
+
+		</div>
+
+	</div>
+
+	<!-- main body of app -->
+	<!-- This content gets replaced by the templates obtained from navigation bar. -->
+	<!-- this division contains all the necessary instructions to navigate through the page -->
+	<div class="mainBody" ui-view="default">
+
+		<div class="instructions">
+			<h2 class="instructionHeading">Instructions for Navigation</h2>
+
+			<div class="instructionBody">
+
+				<h4>
+					<strong>Navigation</strong>
+				</h4>
+				<ul>
+					<li>To navigate, there is a navigation panel on left hand
+						side.</li>
+					<li>Click on 'Home' to come to this screen.</li>
+					<li>Click on 'Contacts' to view all the contacts.</li>
+					<li>Click on 'Sent Messages' to view all sent messages in
+						reverse chronological order.&emsp;&emsp;</li>
+				</ul>
+				<h4>
+					<strong>Pertinent Details</strong>
+				</h4>
+				<ul>
+					<li>Contacts are arbitrarily created at the start of
+						application.</li>
+					<!--li>Some fields are editable, which can be edited once you
+						proceed with a contact.</li-->
+					<li>All the contacts are stored in an Entity "<strong>contacts</strong>"
+						in Database named "<strong>sms</strong>".
+					</li>
+					<li>Fields in Entity are: Id (primary-key), FirstName,
+						LastName, Mobile.</li>
+				</ul>
+				<h4>
+					<strong>Walk-Through</strong>
+				</h4>
+				<ul>
+					<li>To see all contacts, Click 'Contacts' from
+						left-navigation-bar.</li>
+					<li>To send a message, select a contact from the list.</li>
+					<li>You may edit editable contact details, which will be
+						reflected in database.</li>
+					<li>To send a message, Click 'Send-Message' Button.</li>
+					<li>Type your message and send.</li>
+					<li><strong>OPT is automatically generated as soon as
+							you open 'Send-Message' page.</strong></li>
+				</ul>
+
+				<h4>
+					<strong>Limitations</strong>
+				</h4>
+				<ul>
+					<li>There may be delay in delivery of OTP message.</li>
+					<li>Trial Accounts can not send messages to
+						unverified numbers using Twilio.</li>
+				</ul>
+				
+				<h4>
+					<strong>Spring-Boot-Application</strong>
+				</h4>
+				<ul>
+					<li><strong>IDE:</strong> Spring-Tool-Suite</li>
+					<li><strong>Front-End:</strong> Angular-JS & Javascript</li>
+					<li><strong>Back-End:</strong> MySql</li>
+					<li><strong>SMS-Gateway:</strong> Twilio</li>
+				</ul>
+			</div>
+
+		</div>
+
+	</div>
+
+</div>

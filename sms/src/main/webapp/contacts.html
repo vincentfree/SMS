@@ -1,0 +1,23 @@
+<div class="contactsPage">
+
+	<h2 class="contactsHeading">Contact List</h2>
+
+	<div class="contactsBody">
+
+		<div class="contactNames" ng-repeat="c in contacts track by $index"
+			ui-sref="home.contactInfo" ng-click="pass($index)">
+			
+				<!-- list of all saved contacts -->
+				<!-- is generated at application start and saved into the database -->
+				<table>
+					<tr>
+						<td style="min-width: 200px; max-width: 200px;">{{c.firstName + " " + c.lastName}}</td>
+						<td><i class="fa fa-angle-right" aria-hidden="true"></i></td>
+					</tr>
+				</table>
+			
+		</div>
+
+	</div>
+
+</div>
