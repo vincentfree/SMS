@@ -29,7 +29,7 @@ public class ContactsController {
 	 */
     public static final String ACCOUNT_SID = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"; //i have removed credentials
     public static final String AUTH_TOKEN = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"; //just in case someone misuses it
-    public static final String TWILIO_NUMBER = "+17146772124";
+    public static final String TWILIO_NUMBER = "+XXXXXXXXXXX";
     public static String otpString = "";
 	
 	/**
